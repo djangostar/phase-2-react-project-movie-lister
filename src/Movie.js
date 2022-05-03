@@ -17,7 +17,7 @@ const Movie = () => {
         <div key={id}>
             <h3>Title: {movie.title}</h3>
             <h3>Director: {movie.director}</h3>
-            <h3>Poster: </h3><img src={movie.imgUrl} />
+            <h3>Poster: </h3><img src={movie.imgUrl} alt="poster"/>
             <h3>Synopsis: {movie.synopsis}</h3>
             <button className="delete">Delete From List</button>
         </div>
