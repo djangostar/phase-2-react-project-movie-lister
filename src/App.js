@@ -2,7 +2,7 @@ import React from "react"
 import { Route, Routes} from "react-router-dom"
 import './App.css';
 import Home from "./Home"
-import MoviesList from "./Movies"
+import MoviesList from "./MoviesList"
 import Movie from "./Movie"
 import MovieForm from "./MovieForm"
 import About from "./About"
