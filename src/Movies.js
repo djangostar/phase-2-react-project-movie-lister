@@ -1,28 +1,15 @@
-import React, {useState, useEffect} from "react"
+import React from "react"
 import { Link } from "react-router-dom"
-import AddMovieBttn from "./AddMovieBttn"
 
 
-const Movies = () => {
-    const [movies, setMovies] = useState([])
 
-    useEffect(() => {
-        fetch("http://localhost:3001/movies")
-            .then((res) => res.json())
-            .then(data => {
-                setMovies(data)
-            })
-    }, [])
-
-    const handleAddNewMovie = (newMovie) => {
-        setMovies([...movies, newMovie])
-    }
+const Movies = ({ movies }) => {
+    
 
     const moviesList = movies.map((movie) => (
         <div key={movie.id}>
-        <Link to={`/movie/${movie.id}`} >
-            <label><strong>{movie.title}</strong></label>
-            <br/>
+        <Link to={`/movies/${movie.id}`} >
+            <h5><strong>{movie.title}</strong></h5>
         </Link>
         </div>
         
@@ -35,7 +22,7 @@ const Movies = () => {
             <h3>Titles</h3>
             {moviesList}
             <br/>
-            <AddMovieBttn onAddNewMovie={handleAddNewMovie}/>
+            {/* <AddMovieBttn onAddNewMovie={handleAddNewMovie}/> */}
         </div>
     )
 }

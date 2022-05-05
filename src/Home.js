@@ -5,7 +5,8 @@ const Home = () => {
         <div>
             <h1>My Movie List</h1>
             <hr/>
-            <p>Add and List Your Favorite Movies!</p>
+            <h3> Welcome To Movie-Lister! </h3>
+
         </div>
     )
 }
