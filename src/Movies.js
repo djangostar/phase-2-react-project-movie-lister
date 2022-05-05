@@ -1,5 +1,7 @@
 import React from "react"
+import "./stylesheets/Movies.css"
 import { Link } from "react-router-dom"
+
 
 
 
@@ -7,9 +9,9 @@ const Movies = ({ movies }) => {
     
 
     const moviesList = movies.map((movie) => (
-        <div key={movie.id}>
+        <div className="Movies-link" key={movie.id}>
         <Link to={`/movies/${movie.id}`} >
-            <h5><strong>{movie.title}</strong></h5>
+            <li><strong className="Movies-link">{movie.title}</strong></li>
         </Link>
         </div>
         
