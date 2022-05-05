@@ -10,7 +10,7 @@ function NavBar() {
         style={({ isActive }) => ({
             fontSize: "30px",
             display: "inline-block",
-            width: "50px",
+            width: "160px",
             padding: "12px",
             margin: "0 6px 6px",
             background: "none",
@@ -28,7 +28,7 @@ function NavBar() {
           style={({ isActive }) => ({
             fontSize: "30px",
             display: "inline-block",
-            width: "50px",
+            width: "160px",
             padding: "12px",
             margin: "0 6px 6px",
             background: "none",
@@ -64,7 +64,7 @@ function NavBar() {
         style={({ isActive }) => ({
           fontSize: "30px",
           display: "inline-block",
-          width: "50px",
+          width: "160px",
           padding: "12px",
           margin: "0 6px 6px",
           background: "none",
