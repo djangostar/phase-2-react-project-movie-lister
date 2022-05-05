@@ -29,8 +29,10 @@ const MovieForm = ({ onAddNewMovie }) => {
             <h1 style={{ textAlign: "center" }}>
                  Add A Movie!!!{" "}
             </h1>
+            <hr/>
             <form onSubmit={handleSubmit}>
                 <div className="ui input fluid">
+                    <p className="form-input-labels"><strong>Add Title:</strong></p>
                     <input
                         onChange={(e) => setTitle(e.target.value)}
                         type="text"
@@ -40,6 +42,7 @@ const MovieForm = ({ onAddNewMovie }) => {
                     />
                 </div>
                 <div className="ui input fluid">
+                <p className="form-input-labels"><strong>Add Director:</strong></p>
                     <input
                         onChange={(e) => setDirector(e.target.value)}
                         type="text"
@@ -49,6 +52,7 @@ const MovieForm = ({ onAddNewMovie }) => {
                     />
                 </div>
                 <div className="ui input fluid">
+                <p className="form-input-labels"><strong>Add Image:</strong></p>
                     <input
                         onChange={(e) => setImgUrl(e.target.value)}
                         type="text"
@@ -58,7 +62,8 @@ const MovieForm = ({ onAddNewMovie }) => {
                         value={imgUrl}
                     />
                 </div>
-                <div className="ui input fluid">
+                <div className="ui input fulid synopsis">
+                <p className="form-input-labels"><strong>Add Synopsis:</strong></p>
                     <input
                         onChange={(e) => setSynopsis(e.target.value)}
                         type="text"

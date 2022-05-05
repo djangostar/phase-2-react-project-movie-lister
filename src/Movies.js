@@ -22,6 +22,7 @@ const Movies = () => {
         <div key={movie.id}>
         <Link to={`/movie/${movie.id}`} >
             <label><strong>{movie.title}</strong></label>
+            <br/>
         </Link>
         </div>
         
@@ -29,9 +30,9 @@ const Movies = () => {
 
     return (
         <div>
-            <h3>My Movies</h3>
+            <h1>My Movies</h1>
             <hr/>
-            <h3>Name</h3>
+            <h3>Titles</h3>
             {moviesList}
             <br/>
             <AddMovieBttn onAddNewMovie={handleAddNewMovie}/>
