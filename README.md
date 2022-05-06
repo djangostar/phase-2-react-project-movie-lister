@@ -2,12 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Functionality
 
-In the project directory, you can run:
+I consider this project simple yet clean and straight to the point. You can add movies to your list by entering the required fields in the the 'Add Movie' Link in the Navigation bar(component). You can click on each given title on the movie list component and it will redirect you to said movie's details, from there you can delete the movie if you no longer want it in your list. You can also go to About page which is just a little extra info on the languages used and special thanks to those who have helped me along the way.
+
 
 ### `npm start`
-
+![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/giphy-1.mp4)
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
