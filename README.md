@@ -8,7 +8,7 @@ I consider this project simple yet clean and straight to the point. You can add 
 
 
 ### `npm start`
-![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/giphy-1.mp4)
+![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/giphy-1.gif)
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
