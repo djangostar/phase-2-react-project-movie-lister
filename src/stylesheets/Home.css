@@ -22,3 +22,12 @@
     border-color: red;
     -webkit-text-stroke: 2px rgb(248, 9, 9);    
 }
+
+center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
