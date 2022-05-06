@@ -19,7 +19,7 @@ First thing is first, move the cursor over to the top NavBar, and the color of e
 Once in the Movies page, you can click on any movie you added and it will redirect you to said movie details(Title, Director, ImgUrl and Synopsis) from there, You can delete the movie if so desired and it will redirect you to Movies, with the list updated as it's also updated in State, so it will persist.
 
 
-![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/movieGIF2.gif)
+![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/movieGiF2.gif)
 
 
 
