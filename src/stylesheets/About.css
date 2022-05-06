@@ -25,3 +25,10 @@
 .github-link:active {
     color: darkred;
 }
+
+.thank-you-list {
+    font-size: 20px;
+    color: rgb(223, 162, 8);
+    border-color: black;
+    -webkit-text-stroke: 1px black;
+}
