@@ -13,3 +13,15 @@
     border-color: black;
     -webkit-text-stroke: 2px black;    
 }
+
+.github-link {
+    color: darkgray;
+}
+
+.github-link:visited {
+    color: white;
+}
+
+.github-link:active {
+    color: darkred;
+}
