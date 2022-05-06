@@ -8,6 +8,9 @@ I consider this project simple yet clean and straight to the point. You can add 
 
 
 ### `Movies List`
+First thing is first, move the cursor over to the top NavBar, and the color of each link will change wether active or not. Once you click on 'Movies' You can see your list of movies which will persist due to updating state as added.
+
+
 ![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/movieGIF1.gif)
 
 
