@@ -23,16 +23,12 @@ Once in the Movies page, you can click on any movie you added and it will redire
 
 
 
+### `Add a Movie`
+Navigate over to Add Movie in the NavBar and it will take you to a page with a form submit where you can enter the information of the movie you want to add. Once added, it will redirect you back to your movies list where you can click on the title and see said movie details.
 
-### `npm run build`
+![](https://github.com/djangostar/phase-2-react-project-movie-lister/blob/master/movieGIF3.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
