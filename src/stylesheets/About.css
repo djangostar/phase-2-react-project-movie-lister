@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "aachen-bold";
+    src: url(fonts/aachen_bold_font.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.about-me {
+    font-family: "aachen-bold";
+    font-weight: 100;
+    font-size: 50px;
+    color: yellow;
+    border-color: black;
+    -webkit-text-stroke: 2px black;    
+}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./stylesheets/NavBar.css"
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -10,25 +10,25 @@ function NavBar() {
         style={({ isActive }) => ({
             fontSize: "30px",
             display: "inline-block",
-            width: "160px",
+            width: "100px",
             padding: "12px",
             margin: "0 6px 6px",
             background: "none",
             textDecoration: "blink",
             color: isActive ? "darkred" : "white",
-            border: "1 px"
+            
         })}
         className={({isActive}) => `nav_link${isActive ? " active" : ""}`}
         end
       >
         Home
       </NavLink>
-      <NavLink
-        to="/movies"
+      <NavLink 
+        to="/movies" 
           style={({ isActive }) => ({
             fontSize: "30px",
             display: "inline-block",
-            width: "160px",
+            width: "110px",
             padding: "12px",
             margin: "0 6px 6px",
             background: "none",
@@ -57,14 +57,14 @@ function NavBar() {
       className={({isActive}) => `nav_link${isActive ? " active" : ""}`}
       end
       >
-        Movie Form
+        Add Movie
       </NavLink>
       <NavLink
         to="/about"
         style={({ isActive }) => ({
           fontSize: "30px",
           display: "inline-block",
-          width: "160px",
+          width: "100px",
           padding: "12px",
           margin: "0 6px 6px",
           background: "none",

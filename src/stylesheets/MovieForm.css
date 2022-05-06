@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "aachen-bold";
+    src: url(fonts/aachen_bold_font.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.form-input-labels {
+    font-family: "aachen-bold";
+    font-weight: 100;
+    font-size: 30px;
+    color: darkgoldenrod;
+    border-color: black;
+    -webkit-text-stroke: 2px black;
+}
+
+.h1-title {
+    font-family: "aachen-bold";
+    font-weight: 100;
+    font-size: 50px;
+    color: darkgoldenrod;
+    border-color: black;
+    -webkit-text-stroke: 2px black;    
+}
+
+.input-text {
+    font-family: "Press Start 2P";
+    font-size: 11px;
+}
+
+.synopsis {
+    width: 500px;
+    height: 100px;
+    font-family: "Press Start 2P";
+    font-size: 11px;
+}

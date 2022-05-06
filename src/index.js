@@ -18,3 +18,11 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+{/* <input
+className="synopsis"
+onChange={(e) => setSynopsis(e.target.value)}
+type="text"
+name="synopsis"
+placeholder="Synopsis"
+value={synopsis}
+/> */}

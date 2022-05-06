@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "aachen-bold";
+    src: url(fonts/aachen_bold_font.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.home {
+    font-family: "aachen-bold";
+    font-weight: 100;
+    font-size: 50px;
+    color: rgb(255, 247, 8);
+    border-color: red;
+    -webkit-text-stroke: 2px rgb(248, 9, 9);    
+}
+
+.welcome {
+    font-family: "aachen-bold";
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(255, 247, 8);
+    border-color: red;
+    -webkit-text-stroke: 2px rgb(248, 9, 9);    
+}

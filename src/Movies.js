@@ -9,9 +9,9 @@ const Movies = ({ movies }) => {
     
 
     const moviesList = movies.map((movie) => (
-        <div className="Movies-link" key={movie.id}>
-        <Link to={`/movies/${movie.id}`} >
-            <li><strong className="Movies-link">{movie.title}</strong></li>
+        <div key={movie.id}>
+        <Link className="movies-link" to={`/movies/${movie.id}`} >
+            <li><strong>{movie.title}</strong></li>
         </Link>
         </div>
         
@@ -19,9 +19,9 @@ const Movies = ({ movies }) => {
 
     return (
         <div>
-            <h1>My Movies</h1>
+            <h1 className="movies">My Movies</h1>
             <hr/>
-            <h3>Titles</h3>
+            <h2 className="titles">Titles</h2>
             {moviesList}
             <br/>
             {/* <AddMovieBttn onAddNewMovie={handleAddNewMovie}/> */}

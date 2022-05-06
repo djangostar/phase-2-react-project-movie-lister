@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./stylesheets/MovieForm.css"
 
 const MovieForm = ({ onAddNewMovie }) => {
     const [title, setTitle] = useState("")
@@ -26,7 +27,7 @@ const MovieForm = ({ onAddNewMovie }) => {
 
     return (
         <div className="ui inverted segment form">
-            <h1 style={{ textAlign: "center" }}>
+            <h1 className="h1-title" style={{ textAlign: "center" }}>
                  Add A Movie!!!{" "}
             </h1>
             <hr/>
@@ -34,6 +35,7 @@ const MovieForm = ({ onAddNewMovie }) => {
                 <div className="ui input fluid">
                     <p className="form-input-labels"><strong>Add Title:</strong></p>
                     <input
+                        className="input-text"
                         onChange={(e) => setTitle(e.target.value)}
                         type="text"
                         name="title"
@@ -44,6 +46,7 @@ const MovieForm = ({ onAddNewMovie }) => {
                 <div className="ui input fluid">
                 <p className="form-input-labels"><strong>Add Director:</strong></p>
                     <input
+                        className="input-text"
                         onChange={(e) => setDirector(e.target.value)}
                         type="text"
                         name="director"
@@ -54,23 +57,25 @@ const MovieForm = ({ onAddNewMovie }) => {
                 <div className="ui input fluid">
                 <p className="form-input-labels"><strong>Add Image:</strong></p>
                     <input
+                        className="input-text"
                         onChange={(e) => setImgUrl(e.target.value)}
                         type="text"
                         name="image"
                         placeholder="Image Url"
-                        className="input-text"
                         value={imgUrl}
                     />
                 </div>
-                <div className="ui input fulid synopsis">
+                <div className="ui input fluid synopsi">
                 <p className="form-input-labels"><strong>Add Synopsis:</strong></p>
-                    <input
-                        onChange={(e) => setSynopsis(e.target.value)}
-                        type="text"
-                        name="synopsis"
-                        placeholder="Synopsis"
-                        value={synopsis}
-                    />
+                    <label>
+                        <textarea
+                         className="synopsis" 
+                         onChange={(e) => setSynopsis(e.target.value)}
+                         nmae="synopsis"
+                         placeholder="Synopsis" 
+                         value={synopsis} 
+                        />
+                    </label>
                 </div>
                 <button className="ui button" type="submit">
                     Submit Movie

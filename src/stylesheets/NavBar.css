@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "aachen-bold";
+    src: url(fonts/aachen_bold_font.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.nav_link {
+    font-family: "aachen-bold";
+    font-weight: 100;
+}
