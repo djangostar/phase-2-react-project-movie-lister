@@ -77,8 +77,9 @@ function NavBar() {
       >
         About
       </NavLink>
-    
+      <hr/>
     </div>
+
   );
 }
 
